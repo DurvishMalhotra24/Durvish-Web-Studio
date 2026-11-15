@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Durvish Web Studio | Websites for Local Businesses</title>
+  <meta name="description" content="Durvish Web Studio builds fast, mobile-friendly websites for local shops, clinics, salons and coaching centres. By Durvish Malhotra.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Sora:wght@500;700;800&family=Nunito+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- CSS-only dark mode switch (no JavaScript) -->
+  <input type="checkbox" id="theme" class="sr-only" aria-label="Dark mode">
+
+  <header class="site-header">
+    <a class="logo" href="index.html"><span class="logo-dot"></span>Durvish Web Studio</a>
+    <nav>
+      <a href="#services">Services</a>
+      <a href="#plans">Plans</a>
+      <a href="#quote">Get quote</a>
+      <a href="#problem">Problem</a>
+      <a href="#future">Future scope</a>
+      <a href="student.html">Student details</a>
+      <label for="theme" class="theme-btn" title="Switch light or dark mode"><span class="sun">Light</span><span class="moon">Dark</span></label>
+    </nav>
+  </header>
+
+  <main>
+    <!-- HERO -->
+    <section class="hero">
+      <span class="blob b1"></span>
+      <span class="blob b2"></span>
+      <span class="blob b3"></span>
+      <div class="hero-inner">
+        <p class="byline">By Durvish Malhotra</p>
+        <h1>We build websites for</h1>
+        <p class="typing" aria-label="shops, salons, clinics and coaching centres">shops. salons. clinics. coaching.</p>
+        <p class="hero-sub">Durvish Web Studio helps local businesses get found on Google, show their prices and get enquiries from customers by email.</p>
+        <div class="btn-row">
+          <a class="btn btn-primary" href="#plans">See plans</a>
+          <a class="btn btn-ghost" href="student.html">Meet the developer</a>
+        </div>
+      </div>
+      <div class="stats">
+        <div><strong>5</strong><span>days to launch</span></div>
+        <div><strong>100%</strong><span>mobile friendly</span></div>
+        <div><strong>₹0</strong><span>hosting cost</span></div>
+      </div>
+    </section>
+
+    <!-- SERVICES -->
+    <section id="services" class="section">
+      <h2>What we build</h2>
+      <p class="lead">Hover or tap a card to see what you get.</p>
+      <div class="grid">
+        <article class="flip">
+          <div class="flip-inner">
+            <div class="face front"><h3>Business website</h3><p>Home, services, gallery, contact</p></div>
+            <div class="face back"><p>A complete 5-page site with your photos, timings, Google Maps and a Contact by Email button.</p></div>
+          </div>
+        </article>
+        <article class="flip">
+          <div class="flip-inner">
+            <div class="face front"><h3>QR digital menu</h3><p>For cafés and restaurants</p></div>
+            <div class="face back"><p>Customers scan a QR code and see your live menu. No more reprinting paper menus.</p></div>
+          </div>
+        </article>
+        <article class="flip">
+          <div class="flip-inner">
+            <div class="face front"><h3>Coaching centre site</h3><p>Courses, batches, fees</p></div>
+            <div class="face back"><p>Show courses, timetable, results and a Join Now button that opens an email to you.</p></div>
+          </div>
+        </article>
+        <article class="flip">
+          <div class="flip-inner">
+            <div class="face front"><h3>Personal portfolio</h3><p>For students and freelancers</p></div>
+            <div class="face back"><p>A clean one-page site with your projects, skills, resume and contact links.</p></div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- HOW IT WORKS -->
+    <section id="process" class="section">
+      <h2>How it works</h2>
+      <p class="lead">From first message to a live website in about five days.</p>
+      <ol class="steps">
+        <li><h3>Tell us about your business</h3><p>Send your shop name, services, prices, photos and timings by email.</p></li>
+        <li><h3>Get a free demo layout</h3><p>We share a sample design so you can see the look before paying.</p></li>
+        <li><h3>Review and change</h3><p>You tell us what to change. We update colours, text and photos.</p></li>
+        <li><h3>Go live</h3><p>Your website is published with a link and a QR code to share.</p></li>
+      </ol>
+    </section>
+
+    <!-- PLANS (CSS-only tabs) -->
+    <section id="plans" class="section band">
+      <h2>Plans</h2>
+      <p class="lead">Click a tab to compare. Prices are for one-time setup.</p>
+      <div class="tabs">
+        <input type="radio" name="plan" id="p1" checked>
+        <input type="radio" name="plan" id="p2">
+        <input type="radio" name="plan" id="p3">
+        <div class="tab-labels">
+          <label for="p1">Starter</label>
+          <label for="p2">Business</label>
+          <label for="p3">Premium</label>
+        </div>
+        <div class="tab-panels">
+          <div class="panel" id="panel1">
+            <h3>Starter <span class="price">₹2,999</span></h3>
+            <ul class="ticks"><li>One-page website</li><li>Contact by Email button</li><li>Menu or services list</li><li>Free hosting setup</li></ul>
+          </div>
+          <div class="panel" id="panel2">
+            <h3>Business <span class="price">₹5,999</span></h3>
+            <ul class="ticks"><li>Up to 5 pages</li><li>Photo gallery</li><li>Google Maps and timings</li><li>Basic SEO so people can find you</li></ul>
+          </div>
+          <div class="panel" id="panel3">
+            <h3>Premium <span class="price">₹9,999</span></h3>
+            <ul class="ticks"><li>Everything in Business</li><li>Custom colours and logo layout</li><li>QR code poster for your shop</li><li>1 month of free changes</li></ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- TESTIMONIALS (scroll-snap slider, no JavaScript) -->
+    <section id="reviews" class="section">
+      <h2>What customers say</h2>
+      <p class="lead">Sample feedback for this project. Replace it with real reviews from your clients. Swipe or scroll sideways to read more.</p>
+      <div class="reviews" tabindex="0" aria-label="Customer reviews, scroll sideways">
+        <figure class="review">
+          <div class="stars" role="img" aria-label="5 out of 5 stars">★★★★★</div>
+          <blockquote>Customers now check our menu on their phones before they come. Fewer questions at the counter and more walk-ins.</blockquote>
+          <figcaption>Rohit S., café owner</figcaption>
+        </figure>
+        <figure class="review">
+          <div class="stars" role="img" aria-label="5 out of 5 stars">★★★★★</div>
+          <blockquote>The email button brings us new admission enquiries every week. The site loads fast on every phone.</blockquote>
+          <figcaption>Neha K., coaching centre</figcaption>
+        </figure>
+        <figure class="review">
+          <div class="stars" role="img" aria-label="4 out of 5 stars">★★★★☆</div>
+          <blockquote>Simple, clean and affordable. I could show my services and timings without paying an agency.</blockquote>
+          <figcaption>Amit V., salon owner</figcaption>
+        </figure>
+        <figure class="review">
+          <div class="stars" role="img" aria-label="5 out of 5 stars">★★★★★</div>
+          <blockquote>The QR code poster at our counter saved us from reprinting menus every time prices change.</blockquote>
+          <figcaption>Pooja M., restaurant manager</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <!-- PROBLEM STATEMENT -->
+    <section id="problem" class="section">
+      <h2>Problem statement</h2>
+      <p class="lead">Millions of small businesses in India still have no website, so customers cannot find or trust them online.</p>
+      <div class="two-col">
+        <div class="note">
+          <h3>The problem</h3>
+          <ul class="ticks cross">
+            <li>Customers search Google first, but many local shops do not appear.</li>
+            <li>Prices, timings and address are not available online.</li>
+            <li>Paper menus and pamphlets are costly and go out of date.</li>
+            <li>Owners cannot afford expensive agencies.</li>
+          </ul>
+        </div>
+        <div class="note">
+          <h3>Our solution</h3>
+          <ul class="ticks">
+            <li>An affordable, fast website made with HTML and CSS.</li>
+            <li>One link and QR code to share on social media.</li>
+            <li>Email and Maps buttons in one tap.</li>
+            <li>Free hosting on GitHub Pages or Netlify.</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- FUTURE SCOPE -->
+    <section id="future" class="section band">
+      <h2>Future scope and uses</h2>
+      <p class="lead">This version uses only HTML and CSS. These upgrades come as I learn more.</p>
+      <div class="grid">
+        <div class="note"><h3>JavaScript</h3><p>Cart, live bill total, search and filters, form checks.</p></div>
+        <div class="note"><h3>Backend and database</h3><p>Online orders, table booking, login and an owner admin panel.</p></div>
+        <div class="note"><h3>Online payments</h3><p>UPI and card payments before pickup or delivery.</p></div>
+        <div class="note"><h3>SEO and reviews</h3><p>Google Business profile and review links to bring local visitors.</p></div>
+        <div class="note"><h3>More businesses</h3><p>Reuse this template for gyms, clinics, salons and schools.</p></div>
+        <div class="note"><h3>Real startup</h3><p>Grow into a small web agency while studying.</p></div>
+      </div>
+    </section>
+
+    <!-- FAQ -->
+    <section class="section">
+      <h2>Questions</h2>
+      <div class="faq">
+        <details><summary>How long does a website take?</summary><p>A Starter site takes about 2 days. A Business site takes about 5 days after you send photos and details.</p></details>
+        <details><summary>Will it work on phones?</summary><p>Yes. Every site is responsive and tested on small screens first.</p></details>
+        <details><summary>Who pays for hosting?</summary><p>Hosting on GitHub Pages or Netlify is free. A custom domain name costs extra, about ₹800 a year.</p></details>
+        <details><summary>Can I change prices later?</summary><p>Yes. Prices live in simple text and can be changed quickly.</p></details>
+      </div>
+    </section>
+
+    <!-- QUOTE FORM (HTML validation + mailto, no JavaScript) -->
+    <section id="quote" class="section band">
+      <h2>Get a free quote</h2>
+      <p class="lead">Fill in the form and your email app opens with the message ready to send.</p>
+      <form class="quote-form" action="mailto:malhotradurvish@gmail.com" method="post" enctype="text/plain">
+        <div class="field">
+          <label for="q-name">Your name</label>
+          <input type="text" id="q-name" name="Name" placeholder="Rahul Sharma" required autocomplete="name">
+        </div>
+        <div class="field">
+          <label for="q-phone">Phone number</label>
+          <input type="tel" id="q-phone" name="Phone" placeholder="10-digit mobile number" pattern="[0-9]{10}" title="Enter a 10-digit mobile number" required autocomplete="tel">
+        </div>
+        <div class="field">
+          <label for="q-type">Business type</label>
+          <select id="q-type" name="Business type" required>
+            <option value="" disabled selected>Choose one</option>
+            <option>Café or restaurant</option>
+            <option>Salon or spa</option>
+            <option>Clinic or hospital</option>
+            <option>Coaching centre</option>
+            <option>Shop or store</option>
+            <option>Other</option>
+          </select>
+        </div>
+        <div class="field">
+          <label for="q-plan">Plan you like</label>
+          <select id="q-plan" name="Plan">
+            <option>Starter (₹2,999)</option>
+            <option>Business (₹5,999)</option>
+            <option>Premium (₹9,999)</option>
+            <option>Not sure yet</option>
+          </select>
+        </div>
+        <div class="field wide">
+          <label for="q-msg">Tell us about your business</label>
+          <textarea id="q-msg" name="Message" rows="4" placeholder="What do you sell? What do you want on the website?"></textarea>
+        </div>
+        <button class="btn btn-primary" type="submit">Send request</button>
+      </form>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="cta">
+      <h2>Want a website for your shop?</h2>
+      <p>Message Durvish and get a free demo layout.</p>
+      <div class="btn-row center">
+        <a class="btn btn-primary" href="mailto:malhotradurvish@gmail.com?subject=Website%20enquiry">Email Durvish</a>
+      </div>
+      <p class="mail">Or email: <a href="mailto:malhotradurvish@gmail.com">malhotradurvish@gmail.com</a></p>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2026 Durvish Web Studio. By Durvish Malhotra · <a href="student.html">Student details</a></p>
+  </footer>
+  <a class="mail-float" href="#contact" aria-label="Go to the contact section">Contact us</a>
+</body>
+</html>
